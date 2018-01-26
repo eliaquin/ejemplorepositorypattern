@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryEscaNuevo", "RepositoryEscaNuevo\RepositoryEscaNuevo.csproj", "{CA4CC495-3DD5-4466-9ADD-312B6B061C45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA4CC495-3DD5-4466-9ADD-312B6B061C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4CC495-3DD5-4466-9ADD-312B6B061C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4CC495-3DD5-4466-9ADD-312B6B061C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4CC495-3DD5-4466-9ADD-312B6B061C45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {615D6FF3-47E5-4368-B425-D8F49A6B7245}
+	EndGlobalSection
+EndGlobal

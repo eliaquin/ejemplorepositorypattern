@@ -1,12 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Autofac;
 using Data.Entidades;
 using LogicaNegocio.Repositorios;
 
@@ -15,10 +10,12 @@ namespace RepositoryEscaNuevo
     public partial class Form1 : Form
     {
         private readonly IUnitOfWork _unitOfWork;
-        public Form1(IUnitOfWork unitOfWork)
+        public Form1()
         {
             InitializeComponent();
-            _unitOfWork = unitOfWork;
+            //_unitOfWork = unitOfWork;
+            var container = IoCBuilder.Build();
+            _unitOfWork = container.Resolve<IUnitOfWork>();
 
         }
 
@@ -43,7 +40,7 @@ namespace RepositoryEscaNuevo
 
             _unitOfWork.Maestros.Add(maestro);
             _unitOfWork.Save();
-           
+
         }
     }
 }
